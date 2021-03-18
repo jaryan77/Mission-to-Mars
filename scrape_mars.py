@@ -7,8 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
 
-executable_path = {'executable_path': ChromeDriverManager().install()}
-browser = Browser("chrome", **executable_path, headless=False)
+# executable_path = {'executable_path': ChromeDriverManager().install()}
+# browser = Browser("chrome", **executable_path, headless=False)
 
 
 
@@ -37,10 +37,6 @@ def featured_img(browser):
     full_image = browser.find_by_css('button.btn.btn-outline-light')
     full_image.click()
 
-    # browser.is_element_present_by_text("more info", wait_time=1)
-    # more_info_element = browser.find_link_by_partial_text("more info")
-    # more_info_element.click()
-
     html = browser.html
     img_soup = BeautifulSoup(html, 'html.parser')
     img_url_rel = img_soup.select_one('div.fancybox-inner img').get("src")
@@ -59,13 +55,10 @@ def mars_facts():
     mars_table = facts.to_html()
     return mars_table
     
-
-#Hemisphere Shots
+#Hemisphere Links
 def hemisphere(browser):
     usgs_url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(usgs_url)
-    # html = browser.html
-    # soup = BeautifulSoup(html, 'html.parser')
 
     hemisphere_image_urls = []
     links = browser.find_by_css('a.product-item h3')

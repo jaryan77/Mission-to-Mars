@@ -17,11 +17,12 @@ def home():
     # Find one record of data from the mongo database
     scrape_dict = mongo.db.scrape_dict.find_one()
     # Return template and data
-    return render_template("index.html", mars=scrape_dict)
+    print(scrape_dict)
+    return render_template("index.html", scrape_dict=scrape_dict)
 
 
 @app.route("/scrape")
-def scrape():
+def scraper():
   
     scrape_dict = mongo.db.scrape_dict
     mars_data = scrape_mars.scrape()
