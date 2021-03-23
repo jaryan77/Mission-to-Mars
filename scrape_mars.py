@@ -51,8 +51,10 @@ def mars_facts():
     tables=pd.read_html(facts_url)
     facts = tables[0]
     facts = facts.rename(columns={0:'Fact',1:'Measurement'})
+
     
     mars_table = facts.to_html()
+    mars_table.replace('\n','')
     return mars_table
     
 #Hemisphere Links

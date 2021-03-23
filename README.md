@@ -21,6 +21,7 @@ The purpose of this project is to design a web application that scrapes various 
 
 * Navigate USGS site to click on the 4 images of Mars' Hemisheres by appending each image to a dictionary
 
+#
 # MongoDB and Flask App
 
 * Convert .ipynb file into Python script called scrape_mars.py
@@ -28,5 +29,8 @@ The purpose of this project is to design a web application that scrapes various 
 * Store values in MongoDB as Python dictionary
 * Create HTML template to store data in order to visualize on single page
 
-# Visualizations
+# 
+
+# Visiualizations
+
 
