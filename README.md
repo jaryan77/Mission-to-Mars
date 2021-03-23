@@ -33,4 +33,7 @@ The purpose of this project is to design a web application that scrapes various 
 
 # Visiualizations
 
+ * [Top half of HTML page](https://github.com/jaryan77/web-scraping-challenge/blob/main/images/top_half.png)
+
+ * [Bottom half of HTML page](https://github.com/jaryan77/web-scraping-challenge/blob/main/images/bottom_half.png)
 
