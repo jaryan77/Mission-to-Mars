@@ -54,3 +54,16 @@ Below are screenshots of my final product!
 
  * [Bottom half of HTML page](https://github.com/jaryan77/web-scraping-challenge/blob/main/images/bottom_half.png)
 
+#
+# Running the Code
+
+* To run this code, complete the following steps:
+
+    * Clone this repository to your local machine
+
+    * Next, navigate to the directory `web-scaping-challenge` and run the command `$ python app.py`
+
+    * You will then need to follow the local host link `http://127.0.0.1:5000/` that pops up in the terminal
+
+    * The scraping will take a few moments. Patience is key!
+
