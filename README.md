@@ -1,4 +1,4 @@
-# Mission to Mars (web-scraping-challenge) - Alex Ryan
+# Mission to Mars
 
 # Summary
 The purpose of this project is to design a web application that scrapes various Mars-related websites that displays the information in a single HTML page. Flask is used to deploy the scraped data to the HTML page. Using Bootstrap, a "Scrape New Data" button on the HTML page can be used to re-scrape the sites below to ensure all information is up-to-date.
