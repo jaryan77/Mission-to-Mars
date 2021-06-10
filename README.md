@@ -52,6 +52,8 @@ I then used a Python dictionary to store the data using the keys `img_url` and `
 
 * Finally, I created a HTML file called `index.html` that takes the Mars data dictionary and displays all of the data in the appropriate HTML elements.
 
+![flask_app](images/flask_app_screenshot.PNG)
+
 # 
 
 # Visiualizations
