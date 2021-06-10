@@ -13,7 +13,7 @@ By creating a Jupyter notebook file called `mission_to_mars.ipynb`, I initiated 
 
 The first task was to retrieve the latest news article's title and descriptive paragraph.
 
-![nasa_scrape](Images/nasa_scrape.PNG)
+![nasa_scrape](images/nasa_scrape.PNG)
 
 #
 ### [JPL Featured Space Image](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html)
@@ -22,7 +22,7 @@ Next, I was to scape the monthly featured image. At the time of me complting thi
 
 Here I used Splinter `find_by_css` and assigned to `.jpg` to a url string called `featured_image_url`.
 
-![featured_image_scrape](Images/featured_image_scrape.PNG)
+![featured_image_scrape](images/featured_image_scrape.PNG)
 
 #
 
@@ -30,7 +30,7 @@ Here I used Splinter `find_by_css` and assigned to `.jpg` to a url string called
 
 Next, my goal was to perform a simple pandas scrape using `pd.read_html`. Here I collected a table of facts located in the top right corner of the webpage. The facts were then converted into a HTML table string.
 
-![mars_facts](Images/mars_facts.PNG)
+![mars_facts](images/mars_facts.PNG)
 
 #
 ### [Mars Hemispheres](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
@@ -39,7 +39,7 @@ The final scraping objective was to navigate to the USGS website to collect the 
 
 I then used a Python dictionary to store the data using the keys `img_url` and `title`.
 
-![mars_hemispheres](Images/mars_hemispheres.PNG)
+![mars_hemispheres](images/mars_hemispheres.PNG)
 
 #
 # MongoDB and Flask App
@@ -58,9 +58,9 @@ I then used a Python dictionary to store the data using the keys `img_url` and `
 
 Below are screenshots of my final product!
 
- ![Top half of HTML page](Images/top_half.png)
+ ![Top half of HTML page](images/top_half.png)
 
- ![Bottom half of HTML page](Images/bottom_half.png)
+ ![Bottom half of HTML page](images/bottom_half.png)
 
 #
 # Running the Code
