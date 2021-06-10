@@ -50,9 +50,9 @@ I then used a Python dictionary to store the data using the keys `img_url` and `
 
 Below are screenshots of my final product!
 
- * [Top half of HTML page](https://github.com/jaryan77/web-scraping-challenge/blob/main/images/top_half.png)
+ ![Top half of HTML page](images/top_half.png)
 
- * [Bottom half of HTML page](https://github.com/jaryan77/web-scraping-challenge/blob/main/images/bottom_half.png)
+ ![Bottom half of HTML page](images/bottom_half.png)
 
 #
 # Running the Code
